@@ -6,6 +6,6 @@ class String
     word_array.length.times() do
       reverse_array.push(word_array.pop())
     end
-    reverse_array
+    reverse_array.join()
   end
 end
