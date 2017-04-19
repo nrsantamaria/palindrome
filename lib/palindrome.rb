@@ -9,9 +9,9 @@ class String
     reverse_string = reverse_array.join()
 
     if reverse_string == self
-      return "#{reverse_string} is a palindrome!"
+      "#{reverse_string} is a palindrome!"
     else
-      return "#{self} is not a palindrome!"
+      "#{self} is not a palindrome!"
     end
   end
 end
