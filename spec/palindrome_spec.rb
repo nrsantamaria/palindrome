@@ -2,7 +2,7 @@ require('rspec')
 require('palindrome')
 
 describe('String#palindrome') do
-  it('takes the last character of the word array and push it into a new array and takes the new array and joins it in a new string') do
-    expect('no'.palindrome()).to(eq('on'))
+  it('takes the input and tests if it is a palindrome') do
+    expect('no'.palindrome()).to(eq('no is not a palindrome!'))
   end
 end
